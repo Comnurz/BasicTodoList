@@ -1,0 +1,10 @@
+name: Todo
+form: $/bandidaz/todo/models/todo/fields.yaml
+modelClass: Bandidaz\Todo\Models\Todo
+defaultRedirect: bandidaz/todo/todo
+create:
+    redirect: 'bandidaz/todo/todo/update/:id'
+    redirectClose: bandidaz/todo/todo
+update:
+    redirect: bandidaz/todo/todo
+    redirectClose: bandidaz/todo/todo

@@ -1,0 +1,11 @@
+plugin:
+    name: 'bandidaz.todo::lang.plugin.name'
+    description: 'bandidaz.todo::lang.plugin.description'
+    author: bandidaz
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Todos
+        url: bandidaz/todo/todo
+        icon: icon-list
