@@ -2,7 +2,7 @@
     <img src="https://github.com/octobercms/october/blob/master/themes/demo/assets/images/october.png?raw=true" alt="October" width="25%" height="25%" />
 </p>
 
-[TodoList]
+[BasicTodoList]
 Please change all of there: 
 
 Config - app.php - line 84 change :
@@ -10,7 +10,7 @@ Config - app.php - line 84 change :
             'key' => 'YOUR_KEY',  
 ```
 
-Config - database.php - line 58-61 , 72 and 84 change :
+Config - database.php - lines 58-61 , 72 and 84 change :
 ```
             'port'      => 'YOUR_MYSQL_PORT', 
             'database'  => 'YOUR_DATABASE_NAME', 
